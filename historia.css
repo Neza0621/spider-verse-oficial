@@ -1,0 +1,133 @@
+body {
+  margin: 0;
+  overflow-x: hidden;
+  background: #12110f;
+  color: #e6e1d8;
+  font-family: "Times New Roman", serif;
+}
+
+.topbar {
+  background: #000;
+  color: white;
+  font-size: 14px;
+  letter-spacing: 2px;
+  padding: 5px 15px;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 9999;
+}
+
+.topbar.right {
+  text-align: right;
+}
+
+.image {
+  width: 100%;
+  height: 500px;
+  overflow: hidden;
+  margin-top: 30px;
+}
+
+.image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  filter: grayscale(20%);
+}
+
+
+.textnew {
+  font-family: 'Cinzel', serif;
+  font-size: 40px;
+  text-align: center;
+  margin-top: 30px;
+  letter-spacing: 2px;
+}
+
+.content {
+  background: #1f1d1a;
+  max-width: 1000px;
+  margin: auto;
+  padding: 40px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.5);
+}
+
+
+.historia {
+  column-count: 2;
+  column-gap: 40px;
+  text-align: justify;
+  font-size: 17px;
+  line-height: 1.8;
+}
+
+
+.historia h2 {
+  column-span: all;
+  font-family: 'Cinzel', serif;
+  font-size: 42px;
+  text-align: center;
+  letter-spacing: 2px;
+  margin-bottom: 10px;
+  position: relative;
+}
+
+
+.historia h2::after {
+  content: "";
+  display: block;
+  width: 120px;
+  height: 2px;
+  background: #ff2e2e;
+  margin: 10px auto;
+}
+
+
+.historia p:first-of-type {
+  font-size: 20px;
+  font-weight: bold;
+  color: #f0e9dc;
+}
+
+
+.historia p {
+  margin-bottom: 15px;
+}
+
+
+.historia-text {
+  column-span: all;
+  text-align: center;
+  font-size: 24px;
+  color: #ff3b3b;
+  margin-top: 40px;
+  font-family: 'Cinzel', serif;
+  border-top: 1px solid rgba(255,255,255,0.2);
+  padding-top: 20px;
+}
+
+
+.image {
+  width: 100%;
+  height: 670px;
+  overflow: hidden;
+}
+
+.image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+
+.barra_inferior{
+  background-color: rgba(255, 57, 57, 0.993);
+  height: 108px;
+  width: 100%;
+  margin-top: 20px;
+  right: 0;
+  left: 0;
+  padding: 0px;
+  padding-top: 20px;
+}

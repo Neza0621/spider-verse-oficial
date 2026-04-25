@@ -1,0 +1,102 @@
+@media (max-width: 768px) {
+  .films-container {
+    grid-template-columns: 1fr;
+  }
+}
+
+.textnew {
+  font-family: 'Boldonse', sans-serif;
+  font-size: 18px;
+  color: rgb(255, 255, 255);
+  opacity: 0.9;
+  padding-left: 393px;
+  padding-right: 400px;
+}
+
+.image {
+  width: 100%;
+  height: 670px;
+  overflow: hidden;
+}
+
+.image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.contenedor-cards {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); 
+  gap: 30px;
+  max-width: 1200px; 
+  margin: 8px auto; 
+}
+
+.card {
+  position: relative;
+  cursor: pointer;
+  transition: transform 0.3s;
+}
+
+.card:hover {
+  transform: scale(1.02);
+}
+
+.card img {
+  width: 100%;
+  height: 270px;
+  object-fit: cover;
+}
+
+.card-text {
+  background-color: rgba(255, 101, 101, 0.658);
+  padding: 18px;
+  height: 1px;
+  max-height: 2px;
+  display: flex;
+  align-items: center;
+  font-family: 'bree serif', serif;
+  text-align: center;
+  justify-content: center;
+}
+
+.boton {
+  background-color: rgb(255, 0, 0);
+  color: rgb(255, 255, 255);
+  border: none;
+  padding: 10px 20px;
+  font-family: 'Changa One', sans-serif;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  margin: 0px;
+  cursor: pointer;
+  transition: transform 0.2s;
+  border-radius: 9px;
+  opacity: 0.8;
+}
+
+.boton:hover {
+  transform: scale(1.2);
+}
+
+#mensaje {
+  display: none;
+}
+
+#toggle:checked ~ #mensaje {
+  display: block;
+}
+
+.barra_inferior{
+  background-color: rgba(255, 39, 39, 0.658);
+  height: 108px;
+  width: 100%;
+  margin-top: 20px;
+  right: 0;
+  left: 0;
+  padding: 0px;
+  padding-top: 20px;
+}

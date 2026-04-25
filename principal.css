@@ -1,0 +1,58 @@
+@media (max-width: 768px) {
+  .films-container {
+    grid-template-columns: 1fr;
+  }
+}
+
+.tabla{ 
+  width: 100%;
+  margin-top: 195px;
+}
+
+.opciones{
+  font-family: 'Bree Serif', serif;
+  font-size: 18px;
+  right: 11px;
+  padding-left: 340px;
+  padding-right: 340px;
+}
+
+.p{
+  font-family: 'Concert One', cursive;
+  font-size: 48px;
+  color: rgb(255, 0, 0);
+  opacity: 0.9;
+  margin-top: 0px;
+  padding-left: 340px;
+  padding-right: 340px;
+  padding-top: 0px;
+  margin: 0px;
+}
+
+.p2{
+  font-family: 'Cinzel', serif;
+  font-size: 17px;
+  color: rgb(255, 255, 255);
+  opacity: 0.8;
+  margin-top: 0px;
+  padding-left: 340px;
+  padding-right: 340px;
+  padding-top: 0px;
+}
+
+.p, .p2, .opciones {
+  width: 100%;
+  max-width: 900px;
+  margin: auto;
+}
+
+.barra_inferior{
+  background-color: rgba(255, 39, 39, 0.658);
+  height: 108px;
+  width: 100%;
+  margin-top: 20px;
+  right: 0;
+  left: 0;
+  padding: 0px;
+  padding-top: 20px;
+}
